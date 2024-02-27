@@ -1,0 +1,18 @@
+<h1 class="lal">Anime Services</h1>
+<div >
+  <h4> Rating:{{Count}}</h4>
+  <h4>Favourites:{{start}}</h4>
+      
+      <button (click)="reset()">Remove#Fv</button>
+</div>
+<div class="Animes">
+  <div class="anime" *ngFor="let a of movies">
+    <img src={{a.posterURL}}>
+      <h3>{{a.title}}</h3>
+      <div class="ss">
+      <button (click)="show()" class="btn1"><strong>AS-Rating</strong></button></div>
+      <div class="pash">
+      <button (click)="run()" class="btn2"><strong>FAV</strong></button></div>
+  </div>
+
+  </div>

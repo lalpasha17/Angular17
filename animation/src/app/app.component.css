@@ -1,0 +1,50 @@
+.lal{
+   text-align: center;
+   padding: 5px;
+   border: 10px 10px 10px green;
+   color:blueviolet;
+
+
+
+}
+
+.Animes{
+    display: grid;
+    grid-template-columns:  repeat(3,1fr);
+    gap:20px;
+    
+  
+}
+.anime{
+    border-style: groove;
+    border-width: 30px;
+    padding-left: 50px;
+    padding-top: 10px;
+    border-color:rgb(9, 99, 151);
+    border-radius: 10px;
+    
+}
+.ss{
+  
+}
+
+.pash
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 320px;
+ background-color:pink;
+ color:pink
+}
+.btn2
+{
+    border-radius: 5px;
+    background-color: pink;
+    
+   
+}
+.btn1{
+    background-color: yellow;
+    border-radius: 10px;
+    color:red
+}
