@@ -1,0 +1,12 @@
+#food
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow:olive;
+}
+#food2{
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+}

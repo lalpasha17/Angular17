@@ -1,0 +1,12 @@
+<div class="condition">
+  <button (click)="fun()">Modify </button>
+<div *ngIf="isAdmin then l1 else l2"></div>
+<ng-template #l1>
+  <button>x</button>
+  <p>Hello{{name}}</p>
+</ng-template>
+<ng-template #l2>
+<p>Hello user</p>
+</ng-template>
+ 
+</div>

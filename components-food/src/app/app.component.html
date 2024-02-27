@@ -1,0 +1,36 @@
+<html>
+  <body  class="container-fluid ">
+    
+    <form class="border border-2 bg-dark text-white rounded border-dark p-3 w-25">
+      <div class="input-group">
+        <select class="input-group-text">
+            <option>All</option>
+        </select>
+        <input type="text" placeholder="Search Food Item" class="form-control">
+        <button class="bi bi-search btn btn-warning"></button>
+    </div>
+    <h1 align="center">MY FOOD GALLERY</h1>
+    <div class="form-switch">
+      <input type="checkbox" class="form-check-input"><label>I agree Terms&conditions</label>
+    <div  id="food" class="form-control-color">
+     
+      <app-food [img]="img1" ></app-food>
+      <app-food [img]="img2"></app-food>
+      <app-food [img]="img3" ></app-food>
+      <app-food [img]="img4" ></app-food>
+      <app-food [img]="img5" ></app-food>
+    </div>
+    <div id="food2">
+      <app-food [img]="img6" ></app-food>
+      <app-food [img]="img7" ></app-food>
+      <app-food [img]="img8" ></app-food>
+      <app-food [img]="img9" ></app-food>
+      <app-food [img]="img10" ></app-food>
+      
+    </div>
+    
+  </div>
+  
+  </form>
+  </body>
+</html>

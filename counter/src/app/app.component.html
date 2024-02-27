@@ -1,0 +1,15 @@
+
+<html>
+  <body>
+    <h1>Counter</h1>
+    <div class="counter">
+     <h2>Count:<span class="count">{{count}}</span></h2>
+     <div>
+      <button (click)="incr()" [disabled]="isDisabled">+</button>
+      <button (click)="decr()">-</button>
+      <button (click)="Reset()">Reset</button>
+     </div>
+    </div>
+      
+  </body>
+</html>

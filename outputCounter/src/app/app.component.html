@@ -1,0 +1,18 @@
+<app-header (pasha)="receive($event)"></app-header>
+<div>
+  <h1>Main Component</h1>
+  <button (click)="received()">Clik me</button>
+  <p>Count: <span style="font-size: 60px;">{{c}}</span></p>
+</div>
+<br><br>
+<footer>
+
+<div>
+  <button (click)="incr()">+</button>
+  <button (click)="decr()">-</button>
+  <button (click)="reset()">Reset</button>
+</div>
+<div>
+  <input type="text" [(ngModel)]="value2">
+  <button (click)="submit()">submit</button>
+</div></footer>
