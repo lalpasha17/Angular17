@@ -1,0 +1,24 @@
+.pr{
+ color: rgb(178, 112, 26);
+ font-weight: 200;
+ 
+}
+.pr h2,h3{
+    margin-left: 10px;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.pra{
+    color:#d637c1;
+    text-align: center;
+}
+
+.fr1 iframe{
+    height: 400px;
+    width:500px;
+    margin-left: 500px;
+    justify-content: center;
+}

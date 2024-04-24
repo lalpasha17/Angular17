@@ -1,0 +1,22 @@
+<h1  id="PC">⚕️BOOK STORE📚📖</h1>
+<button (clik)="add()">ADD🔰</button>
+<div *ngIf="showForm" class="myForm">
+<button (click)="stop()">❎</button><br><br>
+<input type="number" placeholder="Enter Id" [(ngModel)]="bookId"><br><br>
+<input type="text" placeholder="Enter Name of Book" [(ngModel)]="bookName"><br><br>
+<input type="text" placeholder="Enter Image Link" [(ngModel)]="bookImageLink"><br><br>
+<button (click)="submitData()">{{editMode ? 'update':'submit🤩'}}</button>
+</div>
+
+<div class="books">
+  <div class="book" *ngFor="let b of books">
+    <img src={{b.image}}>
+    <h1>{{b.title}}</h1>
+    <div class="btn">
+      <button (click)="update(b.id)">Update🌐</button><span> 🔘</span>
+      <button (click)="remove(b.id)">Delete⚠️</button>
+
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,22 @@
+.ab1 iframe{
+    height: 400px;
+    width:500px;
+    margin-left: 500px;
+    justify-content: center;
+}
+li{
+    list-style-type: square;
+    margin-left: 90px;
+   font-size: 20px;
+   font-style:inherit;
+   color: #e82066cb;
+}
+.ed h1{
+    color: #1fc2cb;
+    margin-left: 50px;
+
+}
+.pr{
+    color:#d637c1;
+    text-align: center;
+}
